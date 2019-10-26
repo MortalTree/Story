@@ -1,0 +1,35 @@
+***LOCAL***
+git init
+- initializes a git repository so git can be used in the folder
+
+git status
+- shows all commits, and all uncommitted files, AND all files changed since last commit
+
+git add <filename>
+- adds the file to a "staging area" where it is marked as a file to which changes will be tracked
+
+git add .
+- adds all files in the folder to the staging area
+
+git commit -m "present tense message"
+- this commits everything in the staging area to a "save point" with a unique hash
+
+git log
+- shows all commits and details thereof
+
+git diff <filename>
+- shows the last saved file content vs the new, unsaved file content
+
+git checkout <filename>
+- rolls back the file to the last saved commit
+
+***REMOTE***
+git remote add origin <url>
+- origin = name of remote
+- <url> = url obtained after creating repository
+
+git push -u origin master
+- pushes files to the remote called "Origin" under the branch "Master"
+
+git rm --cached -r .
+- "unstages" the files in the staging area

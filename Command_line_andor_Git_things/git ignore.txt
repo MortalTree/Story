@@ -1,0 +1,7 @@
+- create a HIDDEN file called gitignore
+  -> touch .gitignore
+
+- add any file names you wish to be ignored by push commands to this file. File names must be exact.
+- you can use # to comment, and * as a wildcard
+  -> start .gitignore
+  (add file names - 1 per line)
