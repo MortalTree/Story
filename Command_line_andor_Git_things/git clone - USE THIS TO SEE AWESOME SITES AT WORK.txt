@@ -1,0 +1,4 @@
+cd to your directory
+  -> git clone <url>
+
+this will clone a remote directory 
